@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "protein_family": 34,
+  "ADNC_model_n": 300,
+  "protein_concordant": 33,
+  "protein_replicated": 22,
+  "MMSE_participants": 300,
+  "MMSE_assessments": 1200,
+  "MMSE_random_effects": "~time | id",
+  "elapsed_seconds": 2.774
+}

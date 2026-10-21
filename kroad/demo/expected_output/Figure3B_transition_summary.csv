@@ -1,0 +1,2 @@
+baseline_stageable_n,followup_unstageable_n,stageable_both_n,progression,stable,regression,directional_forward_fraction,exact_binomial_p
+150,10,140,30,80,30,0.5,1.0

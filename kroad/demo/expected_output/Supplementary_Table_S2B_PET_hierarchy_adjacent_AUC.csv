@@ -1,0 +1,5 @@
+PET_stage,N,p-tau205_adjacent_AUC,BD-p-tau205_adjacent_AUC,eMTBR-tau_adjacent_AUC
+Tau PET negative,60,,,
+Early aggregation,30,0.8777777777777778,0.9444444444444444,1.0
+Moderate aggregation,30,0.7922222222222222,0.9488888888888889,1.0
+Advanced aggregation,30,0.7944444444444445,0.9255555555555556,1.0

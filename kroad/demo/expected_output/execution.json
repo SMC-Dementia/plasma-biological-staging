@@ -1,0 +1,62 @@
+[
+  {
+    "script": "03_stage_assignment.py",
+    "returncode": 0,
+    "seconds": 0.348
+  },
+  {
+    "script": "04_table1_baseline.py",
+    "returncode": 0,
+    "seconds": 0.366
+  },
+  {
+    "script": "01_T1_selection.py",
+    "returncode": 0,
+    "seconds": 3.262
+  },
+  {
+    "script": "02_T2_selection.py",
+    "returncode": 0,
+    "seconds": 2.135
+  },
+  {
+    "script": "05_clinical_longitudinal.py",
+    "returncode": 0,
+    "seconds": 1.248
+  },
+  {
+    "script": "06_stage_transition.py",
+    "returncode": 0,
+    "seconds": 0.848
+  },
+  {
+    "script": "08_crosssectional_proteome.py",
+    "returncode": 0,
+    "seconds": 4.114
+  },
+  {
+    "script": "09_adjacent_stage_proteome.py",
+    "returncode": 0,
+    "seconds": 1.222
+  },
+  {
+    "script": "10_longitudinal_proteome.py",
+    "returncode": 0,
+    "seconds": 50.005
+  },
+  {
+    "script": "11_domain_analysis.py",
+    "returncode": 0,
+    "seconds": 9.834
+  },
+  {
+    "script": "07_transition_clinical_coupling.py",
+    "returncode": 0,
+    "seconds": 1.173
+  },
+  {
+    "script": "91_generate_figures.py",
+    "returncode": 0,
+    "seconds": 4.618
+  }
+]

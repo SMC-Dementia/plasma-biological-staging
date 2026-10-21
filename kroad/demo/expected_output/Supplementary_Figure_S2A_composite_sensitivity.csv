@@ -1,0 +1,4 @@
+anchor,eMTBR_AUC,composite_AUC,delta_AUC_composite_minus_eMTBR,CI_low,CI_high,bootstrap_p,note
+Temporal Meta >1.376,1.0,0.9994444444444445,-0.0005555555555555314,-0.0018194444444444762,1.1102230246251565e-16,0.6666666666666666,Equal-weight within-phase standardised BD-p-tau205 + eMTBR-tau composite
+Neocortical composite >1.248,1.0,1.0,0.0,-1.1102230246251565e-16,1.1102230246251565e-16,1.0,Equal-weight within-phase standardised BD-p-tau205 + eMTBR-tau composite
+High neocortical composite >1.6015,1.0,1.0,0.0,-1.1102230246251565e-16,1.1102230246251565e-16,1.0,Equal-weight within-phase standardised BD-p-tau205 + eMTBR-tau composite

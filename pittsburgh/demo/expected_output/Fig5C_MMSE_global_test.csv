@@ -1,0 +1,2 @@
+"set","n_participants","n_assessments","stages_present","LR_chi2","df","P","random_effects"
+"Primary",300,1200,"Stage 0;Stage 1;Stage 2;Stage 3;Stage 4",262.38985205509,4,1.39310021320871e-55,"~time | id"

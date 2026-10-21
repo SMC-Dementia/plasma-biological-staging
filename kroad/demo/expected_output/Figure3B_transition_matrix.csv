@@ -1,0 +1,31 @@
+baseline_stage,baseline_label,last_stage,n,row_pct
+0,No plasma tau abnormality,0,20,66.66666666666667
+0,No plasma tau abnormality,1,0,0.0
+0,No plasma tau abnormality,2,0,0.0
+0,No plasma tau abnormality,3,0,0.0
+0,No plasma tau abnormality,4,0,0.0
+0,No plasma tau abnormality,Unstageable,10,33.333333333333336
+1,Tau phosphorylation,0,0,0.0
+1,Tau phosphorylation,1,20,66.66666666666667
+1,Tau phosphorylation,2,3,10.0
+1,Tau phosphorylation,3,7,23.333333333333332
+1,Tau phosphorylation,4,0,0.0
+1,Tau phosphorylation,Unstageable,0,0.0
+2,Early aggregation,0,0,0.0
+2,Early aggregation,1,10,33.333333333333336
+2,Early aggregation,2,10,33.333333333333336
+2,Early aggregation,3,10,33.333333333333336
+2,Early aggregation,4,0,0.0
+2,Early aggregation,Unstageable,0,0.0
+3,Moderate aggregation,0,0,0.0
+3,Moderate aggregation,1,10,33.333333333333336
+3,Moderate aggregation,2,0,0.0
+3,Moderate aggregation,3,10,33.333333333333336
+3,Moderate aggregation,4,10,33.333333333333336
+3,Moderate aggregation,Unstageable,0,0.0
+4,Advanced aggregation,0,0,0.0
+4,Advanced aggregation,1,0,0.0
+4,Advanced aggregation,2,0,0.0
+4,Advanced aggregation,3,10,33.333333333333336
+4,Advanced aggregation,4,20,66.66666666666667
+4,Advanced aggregation,Unstageable,0,0.0

@@ -1,0 +1,35 @@
+protein,domain,partial_r2_reference,omnibus_q_reference,ordinal_beta_reference,trend_q_reference
+GFAP,Inflammation,0.5014,3.75e-147,0.441,5.28e-192
+SPP1,Inflammation,0.0496,7.60e-09,0.134,1.09e-09
+IL33,Inflammation,0.0305,5.42e-05,0.108,3.84e-06
+MMP9,Inflammation,0.0221,0.002,0.079,0.001
+MOG,Inflammation,0.0205,0.004,0.091,2.36e-04
+TREM1,Inflammation,0.0181,0.009,0.064,0.007
+IL1B,Inflammation,0.0154,0.025,0.063,0.015
+NfL,Cytoskeletal abnormalities,0.1496,3.30e-32,0.221,1.54e-33
+STMN2,Cytoskeletal abnormalities,0.0257,4.69e-04,0.097,3.61e-05
+MAG,Cytoskeletal abnormalities,0.0137,0.048,0.071,0.006
+ACHE,Synaptic and neuronal network defects,0.2198,1.38e-50,0.297,6.25e-57
+GAP43,Synaptic and neuronal network defects,0.1230,9.94e-26,0.224,2.74e-26
+SNAP25,Synaptic and neuronal network defects,0.0371,2.90e-06,0.113,2.39e-06
+BASP1,Synaptic and neuronal network defects,0.0287,1.19e-04,0.096,1.06e-04
+APOA2,Synaptic and neuronal network defects,0.0245,7.62e-04,-0.099,1.56e-05
+NTRK3,Synaptic and neuronal network defects,0.0195,0.006,0.085,6.22e-04
+PAFAH1B3,Synaptic and neuronal network defects,0.0193,0.006,0.035,0.207
+NPTX2,Synaptic and neuronal network defects,0.0180,0.009,0.081,6.59e-04
+NCAM1,Synaptic and neuronal network defects,0.0177,0.010,0.084,0.001
+VGF,Synaptic and neuronal network defects,0.0168,0.014,-0.051,0.058
+PPY,Synaptic and neuronal network defects,0.0167,0.014,0.073,0.001
+APOA1,Synaptic and neuronal network defects,0.0143,0.038,0.062,0.025
+EFEMP1,Synaptic and neuronal network defects,0.0136,0.048,0.044,0.152
+BACE1,Pathological protein aggregation,0.0976,9.68e-20,0.195,2.86e-20
+mHTT-exon1,Pathological protein aggregation,0.0228,0.002,0.092,1.18e-04
+pQ-ATXN3,Pathological protein aggregation,0.0191,0.006,0.039,0.167
+Aβ42,Pathological protein aggregation,0.0175,0.011,-0.055,0.051
+pRAB29-T71,Aberrant proteostasis,0.0335,1.54e-05,0.109,1.31e-06
+pRAB12-S106,Aberrant proteostasis,0.0198,0.005,0.088,2.12e-04
+PSME1,Aberrant proteostasis,0.0195,0.006,0.063,0.011
+GBA,Aberrant proteostasis,0.0153,0.026,0.076,0.002
+pPRKN-S65,Altered energy homeostasis,0.0330,1.81e-05,0.114,4.23e-07
+GLP1R,Altered energy homeostasis,0.0152,0.026,0.073,0.002
+VSNL1,Neuronal cell death,0.0405,6.39e-07,0.124,9.31e-08

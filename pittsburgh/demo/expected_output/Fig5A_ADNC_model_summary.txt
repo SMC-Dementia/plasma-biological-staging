@@ -1,0 +1,17 @@
+Call:
+polr(formula = f, data = d, Hess = TRUE, method = "logistic")
+
+Coefficients:
+              Value Std. Error t value
+stage_num   0.78971    0.39273  2.0108
+age_c      -0.01474    0.02184 -0.6748
+female_c    0.05966    0.22198  0.2688
+interval_c -1.54737    2.32917 -0.6643
+
+Intercepts:
+                     Value   Std. Error t value
+Not/Low|Intermediate  0.6905  0.7865     0.8780
+Intermediate|High     1.9824  0.7945     2.4952
+
+Residual Deviance: 603.218 
+AIC: 615.218 

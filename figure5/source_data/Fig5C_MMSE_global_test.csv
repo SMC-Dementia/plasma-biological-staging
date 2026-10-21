@@ -1,0 +1,3 @@
+"set","n_participants","n_assessments","stages_present","LR_chi2","df","P","random_effects"
+"Primary",323,1386,"Stage 0;Stage 1;Stage 2;Stage 3;Stage 4",48.5718291234662,4,7.17199509773998e-10,"~time | id"
+"Sensitivity: first MMSE >= 10",312,1355,"Stage 0;Stage 1;Stage 2;Stage 3;Stage 4",51.4432261359634,4,1.80346637721976e-10,"~time | id"

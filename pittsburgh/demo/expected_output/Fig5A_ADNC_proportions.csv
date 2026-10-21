@@ -1,0 +1,16 @@
+"stage","stage_n_with_ADNC","ADNC","n","percent_within_stage"
+"Stage 0",60,"Not/Low",32,53.3
+"Stage 0",60,"Intermediate",17,28.3
+"Stage 0",60,"High",11,18.3
+"Stage 1",60,"Not/Low",28,46.7
+"Stage 1",60,"Intermediate",14,23.3
+"Stage 1",60,"High",18,30
+"Stage 2",60,"Not/Low",12,20
+"Stage 2",60,"Intermediate",21,35
+"Stage 2",60,"High",27,45
+"Stage 3",60,"Not/Low",18,30
+"Stage 3",60,"Intermediate",17,28.3
+"Stage 3",60,"High",25,41.7
+"Stage 4",60,"Not/Low",4,6.7
+"Stage 4",60,"Intermediate",13,21.7
+"Stage 4",60,"High",43,71.7

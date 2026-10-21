@@ -1,0 +1,8 @@
+args <- commandArgs(trailingOnly=FALSE)
+here <- dirname(sub('--file=', '', grep('--file=',args,value=TRUE)[1]))
+source(file.path(here,'..','validation_common.R'))
+p <- c(CUT_P217-1,CUT_P217,CUT_P217,CUT_P217,CUT_P217,CUT_P217-1,NA)
+e <- c(CUT_EMTBR_1-1,CUT_EMTBR_1-1,CUT_EMTBR_1,CUT_EMTBR_2,CUT_EMTBR_3,CUT_EMTBR_1,CUT_EMTBR_1)
+stopifnot(identical(assign_stage(p,e),c('Stage 0','Stage 1','Stage 2','Stage 3','Stage 4','Unstageable','Missing biomarker')))
+stopifnot(identical(encode_female(c('Male','Female')),c(0,1)))
+cat('PASS: exact cutoffs, unstageable profile, missing marker and sex-label encoding.\n')

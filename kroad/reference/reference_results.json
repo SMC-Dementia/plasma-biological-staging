@@ -1,0 +1,79 @@
+{
+  "terminology": {
+    "emtbr": "eMTBR-tau",
+    "stage_labels": ["No plasma tau abnormality", "Tau phosphorylation", "Early aggregation", "Moderate aggregation", "Advanced aggregation"]
+  },
+  "thresholds_full_precision": {
+    "BD-p-tau217_T1": 9.562758948,
+    "eMTBR_tau_early": 9.735217224,
+    "eMTBR_tau_moderate": 10.35845619,
+    "eMTBR_tau_advanced": 11.60847036,
+    "amyloid_centiloid": 24.0,
+    "tau_pet_temporal_meta": 1.376,
+    "tau_pet_neoc": 1.248,
+    "tau_pet_high_neoc": 1.6015
+  },
+  "T1": {
+    "BD-p-tau217_AUC": 0.936,
+    "p-tau217_AUC": 0.925,
+    "delta_AUC_BD_minus_conventional": 0.011,
+    "delta_AUC_95CI": [0.004, 0.018],
+    "four_marker_BD_composite_AUC": 0.929
+  },
+  "T2": {
+    "matched_n": 116,
+    "eMTBR_tau_AUCs": {"Temporal Meta": 0.986, "NeoC": 0.975, "High NeoC": 0.969},
+    "PET_stage_counts": {"Tau PET negative": 55, "Early aggregation": 9, "Moderate aggregation": 26, "Advanced aggregation": 26}
+  },
+  "staging": {
+    "baseline_n": 1035,
+    "stageable_n": 1007,
+    "unstageable_n": 28,
+    "stage_counts": {"0": 311, "1": 206, "2": 99, "3": 191, "4": 200}
+  },
+  "clinical": {
+    "participants": 590,
+    "assessments": 1845,
+    "annual_slopes": [0.191, 0.382, 0.674, 1.177, 1.943],
+    "global_stage_time_chi2": 271.386,
+    "global_stage_time_df": 4,
+    "global_stage_time_p": 1.60e-57,
+    "adjacent_q": [0.0466, 0.0330, 4.73e-4, 9.63e-10]
+  },
+  "transition": {
+    "baseline_stageable_serial": 294,
+    "followup_unstageable": 12,
+    "stageable_both": 282,
+    "progression": 65,
+    "stable": 201,
+    "regression": 16,
+    "forward_fraction_directional": 0.802,
+    "exact_binomial_p": 3.64e-8,
+    "progression_eligible_n": 226,
+    "progression_eligible_assessments": 627,
+    "progression_vs_stable_slope_difference": 0.293,
+    "progression_vs_stable_95CI": [0.062, 0.523],
+    "progression_vs_stable_q": 0.025
+  },
+  "proteomics": {
+    "eligible_non_tau": 197,
+    "stage_associated": 34,
+    "adjacent_contrast_family": 136,
+    "first_boundary_FDR_significant": 11,
+    "longitudinal_participants": 306,
+    "longitudinal_draws": 640,
+    "longitudinal_FDR_significant": 15,
+    "longitudinal_stage_consistent": 13,
+    "domain_inflammation_slope": 0.064,
+    "domain_inflammation_q": 6.59e-7,
+    "domain_cytoskeletal_slope": 0.068,
+    "domain_cytoskeletal_q": 2.87e-6
+  },
+  "archived_clustering": {
+    "preferred_k": 2,
+    "silhouette": 0.598603695031894,
+    "median_bootstrap_ARI": 0.8094841159581365,
+    "cluster_1": ["APOA2", "Aβ42", "VGF"],
+    "cluster_2_n": 31
+  }
+}

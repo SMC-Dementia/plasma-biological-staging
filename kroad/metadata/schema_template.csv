@@ -1,0 +1,22 @@
+canonical_column,description,required_for
+participant_id,Unique participant identifier,all longitudinal analyses
+draw_id,Unique blood draw identifier,serial proteomics
+draw_date,Blood draw date,serial ordering if time not precomputed
+years_from_baseline,Years from baseline blood draw,longitudinal analyses
+age,Age at baseline,cross-sectional models
+sex,Sex,cross-sectional models
+education_years,Years of education,sensitivity/exploratory clinical models
+apoe4_carrier,APOE epsilon4 carrier indicator,Table 1 and sensitivity/exploratory models
+diagnosis,CU/MCI/dementia diagnosis,Table 1
+mmse,MMSE score,Table 1
+cdr_sb,CDR Sum of Boxes,clinical validation
+centiloid,Amyloid PET Centiloid,T1 selection/Table 1
+amyloid_pet_positive,Centiloid >24 indicator,T1 selection/Table 1
+tau_temporal_meta_suvr,Temporal Meta tau PET SUVR,T2 selection
+tau_neoc_suvr,Neocortical composite tau PET SUVR,T2 selection
+anti_amyloid_treatment,Anti-amyloid DMT exposure indicator,cohort filtering
+assay_phase,NULISA assay phase,T1 composite standardization / provenance
+assay_batch,NULISA assay batch,technical provenance
+BD-p-tau217,Brain-derived p-tau217 NPQ,stage assignment
+eMTBR-tau,eMTBR-tau NPQ,stage assignment
+stage,Plasma stage 0-4 or Unstageable,validation/characterisation

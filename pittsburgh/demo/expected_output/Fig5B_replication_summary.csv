@@ -1,0 +1,3 @@
+"set","n_proteins","n_same_direction","direction_concordance_percent","binomial_P_vs_50pct","n_replicated_q_lt_0.05_same_direction","Pearson_r","Pearson_P","Spearman_rho","Spearman_P"
+"all analysed proteins",34,33,97.1,2.03726813197137e-09,22,0.936782342632904,3.79556166843893e-16,0.801039129157104,1.2708502258855e-08
+"excluding rare-case targets",29,28,96.6,5.58793544769288e-08,19,0.944685132542073,1.35829300267307e-14,0.841586623224737,1.06769056053573e-08

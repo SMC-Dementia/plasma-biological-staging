@@ -1,0 +1,14 @@
+{
+  "seed": 20261021,
+  "participants": 300,
+  "stages": {
+    "Stage 0": 60,
+    "Stage 1": 60,
+    "Stage 2": 60,
+    "Stage 3": 60,
+    "Stage 4": 60
+  },
+  "MMSE_assessments": 1200,
+  "proteins": 34,
+  "data_origin": "Synthetic"
+}

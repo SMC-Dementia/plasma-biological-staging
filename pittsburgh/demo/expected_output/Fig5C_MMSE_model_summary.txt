@@ -1,0 +1,61 @@
+Linear mixed-effects model fit by maximum likelihood
+  Data: dd 
+       AIC     BIC    logLik
+  3290.708 3372.15 -1629.354
+
+Random effects:
+ Formula: ~time | id
+ Structure: General positive-definite, Log-Cholesky parametrization
+            StdDev    Corr  
+(Intercept) 1.2768140 (Intr)
+time        0.3099147 0.051 
+Residual    0.5939033       
+
+Fixed effects:  list(f) 
+                          Value  Std.Error  DF   t-value p-value
+(Intercept)           27.275867 0.17198571 895 158.59380  0.0000
+time                  -0.337883 0.05688793 895  -5.93946  0.0000
+stage_catStage 1      -2.125439 0.24324937 293  -8.73770  0.0000
+stage_catStage 2      -2.709268 0.24342815 293 -11.12964  0.0000
+stage_catStage 3      -4.120492 0.24320525 293 -16.94245  0.0000
+stage_catStage 4      -5.339166 0.24318766 293 -21.95492  0.0000
+age_c                 -0.008466 0.01516898 293  -0.55813  0.5772
+female_c               0.122225 0.15350937 293   0.79621  0.4266
+time:stage_catStage 1 -0.441445 0.08045168 895  -5.48709  0.0000
+time:stage_catStage 2 -0.788558 0.08045168 895  -9.80164  0.0000
+time:stage_catStage 3 -1.125904 0.08045168 895 -13.99479  0.0000
+time:stage_catStage 4 -1.487742 0.08045168 895 -18.49237  0.0000
+ Correlation: 
+                      (Intr) time   stg_S1 stg_S2 stg_S3 stg_S4 age_c  feml_c
+time                  -0.069                                                 
+stage_catStage 1      -0.707  0.049                                          
+stage_catStage 2      -0.707  0.049  0.501                                   
+stage_catStage 3      -0.707  0.049  0.500  0.500                            
+stage_catStage 4      -0.707  0.049  0.499  0.499  0.500                     
+age_c                  0.022  0.000 -0.026 -0.046 -0.018  0.013              
+female_c              -0.001  0.000  0.001  0.002  0.001  0.000 -0.033       
+time:stage_catStage 1  0.049 -0.707 -0.069 -0.034 -0.034 -0.034  0.000  0.000
+time:stage_catStage 2  0.049 -0.707 -0.034 -0.069 -0.034 -0.034  0.000  0.000
+time:stage_catStage 3  0.049 -0.707 -0.034 -0.034 -0.069 -0.034  0.000  0.000
+time:stage_catStage 4  0.049 -0.707 -0.034 -0.034 -0.034 -0.069  0.000  0.000
+                      tm:_S1 tm:_S2 tm:_S3
+time                                      
+stage_catStage 1                          
+stage_catStage 2                          
+stage_catStage 3                          
+stage_catStage 4                          
+age_c                                     
+female_c                                  
+time:stage_catStage 1                     
+time:stage_catStage 2  0.500              
+time:stage_catStage 3  0.500  0.500       
+time:stage_catStage 4  0.500  0.500  0.500
+
+Standardized Within-Group Residuals:
+          Min            Q1           Med            Q3           Max 
+-2.4875322399 -0.5260903720 -0.0005071359  0.5707519151  2.3295727157 
+
+Number of Observations: 1200
+Number of Groups: 300 
+
+Global stage-by-time LRT: chi2(4) = 262.390, P = 1.39e-55

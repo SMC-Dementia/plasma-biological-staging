@@ -1,0 +1,7 @@
+stage,stage_label,n
+0,No plasma tau abnormality,30
+1,Tau phosphorylation,30
+2,Early aggregation,30
+3,Moderate aggregation,30
+4,Advanced aggregation,30
+Unstageable,Unstageable,0
